@@ -6,8 +6,8 @@
 
 A desktop app for tracking and analyzing your Slippi Ranked sets. Point it at your replay folder, scan, and get a full breakdown of your play — matchups, stages, sessions, rating history, and live session tracking.
 
-![Version](https://img.shields.io/github/v/release/Joey-Farah/Slippi-Ranked-Stats)
-![Platform](https://img.shields.io/badge/platform-Windows-blue)
+![Version](https://img.shields.io/github/v/release/shik-24/Slippi-Ranked-Stats)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS-blue)
 
 <p align="center">
   <img src="docs/screenshots/grades.png" alt="Set grading breakdown" width="80%" />
@@ -33,9 +33,16 @@ A desktop app for tracking and analyzing your Slippi Ranked sets. Point it at yo
 
 ## Installation
 
-1. Go to the [Releases](https://github.com/Joey-Farah/Slippi-Ranked-Stats/releases/latest) page
+### Windows
+1. Go to the [Releases](https://github.com/shik-24/Slippi-Ranked-Stats/releases/latest) page
 2. Download `Slippi Ranked Stats_x.x.x_x64-setup.exe`
 3. Run the installer
+
+### macOS
+1. Go to the [Releases](https://github.com/shik-24/Slippi-Ranked-Stats/releases/latest) page
+2. Download `Slippi Ranked Stats_x.x.x_aarch64.dmg` (Apple Silicon) or `x86_64.dmg` (Intel)
+3. Open the `.dmg` and drag the app to `/Applications`
+4. On first launch, right-click the app → **Open** to bypass Gatekeeper (required for apps without an Apple developer certificate)
 
 Once installed, future updates will be delivered automatically — you'll see a banner inside the app when one is ready.
 
@@ -45,7 +52,8 @@ Once installed, future updates will be delivered automatically — you'll see a 
 
 1. Enter your **Connect Code** (e.g. `JOEY#870`)
 2. Click **Browse…** and select your Slippi replay folder
-   - Usually at `C:\Users\<you>\Documents\Slippi`
+   - Windows: usually `C:\Users\<you>\Documents\Slippi`
+   - macOS: usually `~/Documents/Slippi`
 3. Click **Scan Replays**
 4. Click **Get Current Rating** to pull your current Slippi rating
 
@@ -55,7 +63,7 @@ Your connect code and folder path are saved, so next time you open the app it'll
 
 ## Requirements
 
-- Windows 10 or later
+- Windows 10 or later, or macOS 11 (Big Sur) or later
 - [Slippi](https://slippi.gg) with ranked replays saved locally
 
 ---
